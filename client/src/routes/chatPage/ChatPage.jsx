@@ -18,7 +18,7 @@ const ChatPage = () => {
   });
 
   console.log(data);
-
+  
   return (
     <div className="chatPage">
       <div className="wrapper">

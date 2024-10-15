@@ -29,15 +29,15 @@ const DashboardPage = () => {
     e.preventDefault();
     const text = e.target.text.value;
     if (!text) return;
-
-    mutation.mutate(text);
+    console.log(text);
+    //mutation.mutate(text);
   };
   return (
     <div className="dashboardPage">
       <div className="texts">
         <div className="logo">
           <img src="/logo.png" alt="" />
-          <h1>LAMA AI</h1>
+          <h1>Vivek AI</h1>
         </div>
         <div className="options">
           <div className="option">
